@@ -100,3 +100,13 @@ Find more information about SAP Commerce Cloud Setup on our [help site](https://
 Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved.
 This file is licensed under the “SAP Sample Code License” except as noted otherwise in the [LICENSE file](https://github.wdf.sap.corp/staging-for-SAP-samples-public/cloud-commerce-sample-setup/blob/master/LICENSE).
 
+
+# Training prerequisites
+
+
+JAVA 11: https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.15.0.1/sapmachine-jdk-11.0.15.0.1_windows-x64_bin.msi
+
+Angular CLI: Version 12.0.5 or later, < 13.  (npm i @angular/cli@12.2.17)
+Yarn: Version 1.15 or later.
+Node.js: 14.x
+
