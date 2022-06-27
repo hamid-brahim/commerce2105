@@ -258,7 +258,7 @@ INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];name;cmsCompo
 INSERT_UPDATE ContentSlotForPage;$contentCV[unique=true];uid[unique=true];position[unique=true];page(uid,$contentCV);contentSlot(uid,$contentCV)[unique=true]
 ;;BottomHeaderSlot-homepage;BottomHeaderSlot;homepage;HomepageBottomHeaderSlot
 
-# clear BottomHeaderSlot slot for category/578; add breadcrumb component to section1
+# clear BottomHeaderSlot slot for category/578 or c/578
 INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];name;cmsComponents(uid, $contentCV)
 ;;SLRCamerasBottomHeaderSlot;SLRCameras Category Page Bottom Header Slot;
 
@@ -266,7 +266,7 @@ INSERT_UPDATE ContentSlotForPage;$contentCV[unique=true];uid[unique=true];positi
 ;;BottomHeaderSlot-SLRCamerasCategoryPage;BottomHeaderSlot;SLRCamerasCategoryPage;SLRCamerasBottomHeaderSlot
 
 UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];cmsComponents(uid, $contentCV)
-;;Section1Slot-SLRCameras;ElectronicsSLRSplashBannerComponent,breadcrumbComponent
+;;Section1Slot-SLRCameras;ElectronicsSLRSplashBannerComponent
 
 
 ###### Create Register Page ######

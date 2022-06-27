@@ -4,7 +4,7 @@
  For more details about configurations options that may appear in this file, see https://lucene.apache.org/solr/guide/8_8/configuring-solrconfig-xml.html.
 -->
 <config>
-	<luceneMatchVersion>8.9.0</luceneMatchVersion>
+	<luceneMatchVersion>8.11.1</luceneMatchVersion>
 
 	<lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lib" regex=".*\.jar" />
 	<lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" regex=".*\.jar" />
@@ -100,6 +100,7 @@
 			<str name="spellcheck.onlyMorePopular">true</str>
 			<str name="spellcheck.count">5</str>
 			<str name="spellcheck.collate">true</str>
+			<str name="spellcheck.maxCollations">5</str>
 		</lst>
 		<arr name="components">
 			<str>suggest</str>
